@@ -1,0 +1,29 @@
+{
+  "name": "send-sparkpost-template",
+  "version": "0.0.2",
+  "description": "Wrapper around the Sparkpost api focusing on one thing, and one thing only - sending templated email, with the templates stored in Sparkpost",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexjamesbrown/send-sparkpost-template.git"
+  },
+  "keywords": [
+    "sparkpost",
+    "email",
+    "template"
+  ],
+  "author": "Alex Brown",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "nodemailer": "^1.4.0",
+    "proxyquire": "^1.5.0",
+    "sinon": "^1.15.4"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "sparkpost": "^1.3.5"
+  }
+}

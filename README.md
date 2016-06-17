@@ -1,0 +1,1 @@
+A simple wrapper around the Sparkpost API that does one thing, and one thing only - Sends an email using a template (which is stored in Sparkpost)
