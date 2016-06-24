@@ -16,12 +16,6 @@
     "template"
   ],
   "author": "Alex Brown",
-  "devDependencies": {
-    "chai": "^3.0.0",
-    "nodemailer": "^1.4.0",
-    "proxyquire": "^1.5.0",
-    "sinon": "^1.15.4"
-  },
   "dependencies": {
     "lodash": "^3.10.0",
     "sparkpost": "^1.3.5"
