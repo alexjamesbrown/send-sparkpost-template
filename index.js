@@ -1,14 +1,14 @@
 var _ = require('lodash'),
 SparkPost = require('sparkpost');
 
-function SparkpostTemplateSender(apikey) {
+function SparkPostTemplateSender(apikey) {
     if (!apikey)
         throw new Error('Sparkpost API key required');
 
     this.sparkpost_client = new SparkPost(apikey);
 }
 
-SparkpostTemplateSender.prototype.sendTemplate = function(template_id, emailAddresses, variables, callback) {
+SparkPostTemplateSender.prototype.sendTemplate = function(template_id, emailAddresses, variables, callback) {
 
     if (typeof variables == 'function')
         callback = variables;
