@@ -43,4 +43,4 @@ SparkPostTemplateSender.prototype.sendTemplate = function(template_id, emailAddr
     });
 }
 
-module.exports = SparkpostTemplateSender
+module.exports = SparkPostTemplateSender
