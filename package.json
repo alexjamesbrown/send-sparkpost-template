@@ -1,6 +1,6 @@
 {
   "name": "send-sparkpost-template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wrapper around the Sparkpost api focusing on one thing, and one thing only - sending templated email, with the templates stored in Sparkpost",
   "main": "index.js",
   "scripts": {

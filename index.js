@@ -26,9 +26,6 @@ SparkPostTemplateSender.prototype.sendTemplate = function(template_id, emailAddr
         });
     }
 
-    console.log('recipients = ', _emailAddresses)
-    console.log('variables = ', variables)
-    
     this.sparkpost_client.transmissions.send({
         transmissionBody: {
             content: {
@@ -44,8 +41,6 @@ SparkPostTemplateSender.prototype.sendTemplate = function(template_id, emailAddr
         }
         return callback();
     });
-
-
 }
 
 module.exports = SparkpostTemplateSender
